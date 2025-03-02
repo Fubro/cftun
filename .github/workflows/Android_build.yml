@@ -25,8 +25,8 @@ jobs:
 
     - name: Build Android binaries
       run: |
-        chmod +x build.sh
-        ./build.sh
+        chmod +x Android_build.sh
+        ./Android_build.sh
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
